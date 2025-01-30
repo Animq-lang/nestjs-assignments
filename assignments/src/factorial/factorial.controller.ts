@@ -1,6 +1,6 @@
 import { Controller, Get, Param } from '@nestjs/common';
 
-// gjjjrf
+// Set up the controller and its route.
 @Controller('factorial')
 export class FactorialController {
     @Get(":factorialnum")
